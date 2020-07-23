@@ -22,8 +22,8 @@ public class HomeController {
 		return "logout_home";
 	}
 	
-	@RequestMapping( value = "/register", method = RequestMethod.POST)
-	public String ValidateUserRegistation() {
+	@RequestMapping("/register")
+	public String registation() {
 		return "register";
 	}
 	
