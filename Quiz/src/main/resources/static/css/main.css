@@ -1,8 +1,39 @@
-body {
+
+body{
 	background-color: lightblue;
+}
+
+.box {
+	    top: 50%;
+	    left: 50%;
+	    position: absolute;
+	    transform: translate(-50%,-50%);
+	    box-sizing: border-box;
+	    padding: 70px 30px;
+	    padding-left: 60px;
+	    padding-right: 60px;
+	}
+	
+h1 {
+		margin-bottom: 20px; 
+	}
+td {
+	padding: 5px;
 	
 }
-h1,h2{
-	color: #ff0000;
-	background-color: purple;
+.access-link{
+	float: right;
 }
+.error-msg{
+	color: red;
+}
+a:active {
+	color: blue;
+}
+a:hover {
+	color: hotpink;
+}
+a:visited {
+	color: green;
+}
+	
