@@ -18,49 +18,31 @@
 							<td class="" colspan="2"></td>
 						</tr>
 						<tr>
-							<td>Full Name : </td>
+							<td>Email :</td>
 							<td>
-								<input type="text" name="name" class="form-control" required="required">
-							</td>
-						</tr>
-						<tr>
-							<td>Date of Birth : </td>
-							<td>
-								<input type="date" name="dob" class="form-control" required="required">
-							</td>
-						</tr>
-						<tr>
-							<td>Gender : </td>
-							<td>
-								<select id="gender" name="gender" class="form-control">
-									<option value="Male">Male</option>
-									<option value="Female">Female</option>
-									<option value="Other">Other</option>
-								</select>
-							</td>
-						</tr>
-						<tr>
-							<td>Email Id : </td>
-							<td>
-								<input type="email" name="email" class="form-control" required="required">
-							</td>
-						</tr>
-						<tr>
-							<td>Mobile Number: </td>
-							<td>
-								<input type="mobile" name="mnumber" class="form-control" required="required">
+								<input type="text" name="username" class="form-control" required="required">
 							</td>
 						</tr>
 						<tr>
 							<td>Password : </td>
 							<td>
-								<input type="text" name="password" class="form-control"  required="required">
+								<input type="password" name="password" class="form-control" required="required">
 							</td>
 						</tr>
 						<tr>
 							<td>Confirm Password : </td>
 							<td>
-								<input type="text" name="conf_password" class="form-control"  required="required">
+								<input type="confpassword" name="confpassword" class="form-control" required="required">
+							</td>
+						</tr>
+						<tr>
+							<td>Role : </td>
+							<td>
+								<select id="gender" name="gender" class="form-control" required="required">
+									<option value="null">Select</option>
+									<option value="User">User</option>
+									<option value="Admin">Admin</option>
+								</select>
 							</td>
 						</tr>
 						<tr>
@@ -170,4 +152,76 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-</html> -->
+</html> 
+
+// User Details Page.
+
+<div class="container">
+		<div class="row">
+			<div class="jumbotron box">
+				<form action="register"  method="post">
+					<h1 align="center" >Registration <i class="fas fa-edit"></i></h1>
+					<table>
+						<tr >
+							<td class="" colspan="2"></td>
+						</tr>
+						<tr>
+							<td>Full Name : </td>
+							<td>
+								<input type="text" name="name" class="form-control" required="required">
+							</td>
+						</tr>
+						<tr>
+							<td>Date of Birth : </td>
+							<td>
+								<input type="date" name="dob" class="form-control" required="required">
+							</td>
+						</tr>
+						<tr>
+							<td>Gender : </td>
+							<td>
+								<select id="gender" name="gender" class="form-control">
+									<option value="Male">Male</option>
+									<option value="Female">Female</option>
+									<option value="Other">Other</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>Email Id : </td>
+							<td>
+								<input type="email" name="email" class="form-control" required="required">
+							</td>
+						</tr>
+						<tr>
+							<td>Mobile Number: </td>
+							<td>
+								<input type="mobile" name="mnumber" class="form-control" required="required">
+							</td>
+						</tr>
+						<tr>
+							<td>Password : </td>
+							<td>
+								<input type="text" name="password" class="form-control"  required="required">
+							</td>
+						</tr>
+						<tr>
+							<td>Confirm Password : </td>
+							<td>
+								<input type="text" name="conf_password" class="form-control"  required="required">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button type="submit" class="btn btn-primary btn-block">Register</button>
+								<a class="access-link" href="/login" >Already have account...?</a>
+							</td>
+						</tr>
+						
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+
+-->
